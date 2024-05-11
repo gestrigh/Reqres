@@ -61,9 +61,9 @@
 В проекте присутствуют отдельные теги для каждого тест-сьюта (описаны выше в реализованных проверках),
 с помощью которых, можно запускать не только все тесты единоразово, но и отдельно только нужные.
 Применимо и при локальном и удаленном запуске.
-Локальный запуск тестов по сьютам "colors,users" без доп. параметров:
+Локальный запуск тестов по сьютам "users" без доп. параметров:
 ```
-gradle clean withTags -Dtags=colors,users
+gradle clean withTags -Dtags=users
 ```
 Локальный запуск всех тестов без доп. параметров:
 ```
@@ -98,7 +98,7 @@ gradle clean withTags -Denv=remote -DbrowserRemoteUrl=*Remote selenoid or moon h
 </p>
 
 <a id="allureTestOps"></a>
-## <img width="3%" style="vertical-align:middle" title="Allure TestOps" src="https://plugins.jetbrains.com/files/12513/451639/icon/pluginIcon.svg"> </a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/4184/dashboards"> Allure TestOps </a>
+## <img width="3%" style="vertical-align:middle" title="Allure TestOps" src="https://plugins.jetbrains.com/files/12513/451639/icon/pluginIcon.svg"> </a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/4228/dashboards"> Allure TestOps </a>
 
 На *Dashboard* в ```Allure TestOps``` видна статистика количества автоматизированных тестов. Новые тесты, а так же результаты прогона приходят по интеграции при каждом запуске сборки.
 
@@ -109,11 +109,11 @@ gradle clean withTags -Denv=remote -DbrowserRemoteUrl=*Remote selenoid or moon h
 ### Результат выполнения автотеста в прогоне
 
 <p align="center">
-<img title="Test Results in Alure TestOps" src="media/allureTestOpsDetail.png">
+<img title="Test Results in Allure TestOps" src="media/allureTestOpsDetail.png">
 </p>
 
 <a id="jira"></a>
-## <img width="4%" style="vertical-align:middle" title="Jira" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1196"> Jira </a>
+## <img width="4%" style="vertical-align:middle" title="Jira" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1222"> Jira </a>
 
 Реализована интеграция ```Allure TestOps``` с ```Jira```, в тикете отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 

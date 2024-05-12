@@ -80,8 +80,10 @@ gradle clean withTags -Denv=remote -DbrowserRemoteUrl=*Remote selenoid or moon h
 Для запуска сборки необходимо перейти в раздел ```Build with Parameters```, выбрать необходимые параметры и нажать кнопку ```Build```.
 #### :hammer_and_wrench: Параметры сборки в Jenkins:
 - BASE_URL (адрес базового URL продукта Reqres, по умолчанию https://reqres.in/)
-- BASE_PATH (адрес базовых api endpoints продукта reqres, по умолчанию https://reqres.in/)
+- BASE_PATH (адрес базовых api endpoints продукта reqres, по умолчанию /api)
 - TAGS (теги конкретных автотестов для запуска, по умолчанию smoke)
+- AUTH (креды авторизации удаленной среды)
+- REMOTE_URL (адрес удаленной среды)
 - BROWSER_REMOTE_URL (адрес удаленного сервера для запуска)
 <p align="center">
 <img title="Jenkins Build" src="media/jenkinsMain.png">

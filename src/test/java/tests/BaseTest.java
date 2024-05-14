@@ -16,7 +16,6 @@ public class BaseTest {
 
     @BeforeAll
     static void browserSettings() {
-        System.setProperty("driver", System.getProperty("driver", "local"));
         DriverConfig driverConfig = ConfigFactory.create(DriverConfig.class);
         ApiConfig apiConfig = ConfigFactory.create(ApiConfig.class);
         RestAssured.baseURI = System.getProperty("baseUrl", apiConfig.reqresBaseUrl());

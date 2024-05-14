@@ -84,7 +84,6 @@ gradle clean withTags -Denv=remote -DbrowserRemoteUrl=*Remote selenoid or moon h
 - TAGS (теги конкретных автотестов для запуска, по умолчанию smoke)
 - AUTH (креды авторизации удаленной среды)
 - REMOTE_URL (адрес удаленной среды)
-- BROWSER_REMOTE_URL (адрес удаленного сервера для запуска)
 <p align="center">
 <img title="Jenkins Build" src="media/jenkinsMain.png">
 </p>
